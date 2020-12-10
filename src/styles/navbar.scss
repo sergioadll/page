@@ -1,5 +1,36 @@
-// .navbar-title {
-// }
+// Small to Medium Sized Media
+@media (max-width: 768px) {
+  .navbar-link {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  .navbar-title {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 768px) and (orientation: landscape) {
+  .navbar-title {
+    font-size: 1rem;
+  }
+}
+// Medium to Large Sized Media
+@media (max-width: 768px) {
+  .navbar-link {
+    //font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  .navbar-title {
+    //font-size: 1.6rem;
+  }
+}
+@media (max-width: 768px) and (orientation: landscape) {
+  .navbar-title {
+    //font-size: 1rem;
+  }
+}
+
 .navbar-title:hover {
   text-decoration: none;
 }

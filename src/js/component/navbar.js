@@ -8,10 +8,10 @@ import "../../styles/navbar.scss";
 export const Navbar = () => {
 	// const { store, actions } = useContext(Context);
 	const [name, setName] = useState("SDL");
-	let longName = () => setName("Sergio Diaz Llobera");
-	let shortName = () => setName("SDL");
+	const longName = () => setName("Sergio Diaz Llobera");
+	const shortName = () => setName("SDL");
 	return (
-		<nav className="navbar mb-3">
+		<nav className="navbar px-0 mb-3">
 			<Link to="/" className="navbar-title">
 				<span className="navbar-title text-light h1" onMouseOver={longName} onMouseOut={shortName}>
 					{name}
