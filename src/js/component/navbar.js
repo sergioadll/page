@@ -12,19 +12,19 @@ export const Navbar = () => {
 	const shortName = () => setName("SDL");
 	return (
 		<nav className="navbar px-0 mb-3">
-			<Link to="/" className="navbar-title">
+			<Link to="/" className="navbar-title link">
 				<span className="navbar-title text-light h1" onMouseOver={longName} onMouseOut={shortName}>
 					{name}
 				</span>
 			</Link>
 			<div className="ml-auto-md">
-				<Link to="/">
+				<Link to="/" className="link">
 					<span className="navbar-link text-light h1">Home</span>
 				</Link>
-				<Link to="/about">
+				<Link to="/about" className="link">
 					<span className="navbar-link text-light h1">About</span>
 				</Link>
-				<Link to="/projects">
+				<Link to="/projects" className="link">
 					<span className="navbar-link project-link text-warning h1">Projects</span>
 				</Link>
 			</div>

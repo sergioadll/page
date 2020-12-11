@@ -45,12 +45,9 @@
 }
 .navbar-link:hover {
   text-decoration: none;
-  text-decoration: underline 0.2rem;
+  text-decoration: overline 0.2rem;
+  // text-underline-offset: .5rem;
 }
-// .project-link {
-//   margin-right: 2rem;
-//   transition: 1s;
-// }
-// .project-link:hover {
-//   text-decoration-color: #ffc107;
-// }
+.link {
+  outline: none;
+}
