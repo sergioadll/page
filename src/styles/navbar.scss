@@ -1,3 +1,8 @@
+// html font sizes
+// html {
+//   font-size: 1rem;
+// }
+
 // Small to Medium Sized Media
 @media (max-width: 768px) {
   .navbar-link {
@@ -15,17 +20,17 @@
   }
 }
 // Medium to Large Sized Media
-@media (max-width: 768px) {
+@media (max-width: 922px) {
   .navbar-link {
     //font-size: 1.2rem;
   }
 }
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 922px) and (orientation: portrait) {
   .navbar-title {
     //font-size: 1.6rem;
   }
 }
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 922px) and (orientation: landscape) {
   .navbar-title {
     //font-size: 1rem;
   }
@@ -36,8 +41,16 @@
 }
 .navbar-link {
   margin-right: 2rem;
+  transition: 1s;
 }
 .navbar-link:hover {
   text-decoration: none;
-  text-decoration: underline white solid 0.2rem;
+  text-decoration: underline 0.2rem;
 }
+// .project-link {
+//   margin-right: 2rem;
+//   transition: 1s;
+// }
+// .project-link:hover {
+//   text-decoration-color: #ffc107;
+// }

@@ -25,7 +25,7 @@ export const Navbar = () => {
 					<span className="navbar-link text-light h1">About</span>
 				</Link>
 				<Link to="/projects">
-					<span className="navbar-link text-warning h1">Projects</span>
+					<span className="navbar-link project-link text-warning h1">Projects</span>
 				</Link>
 			</div>
 		</nav>
