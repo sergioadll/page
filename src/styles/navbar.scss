@@ -36,7 +36,8 @@
   }
 }
 
-.navbar-title:hover {
+.navbar-title:hover,
+.navbar-link:active {
   text-decoration: none;
 }
 .navbar-link {
