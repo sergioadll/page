@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import "../../styles/footer.scss";
 
 export const Footer = () => (
-	<footer className="footer mt-auto pt-3 text-center">
+	<footer className="footer pt-3 text-center">
 		<a className="text-primary" href="https://www.linkedin.com/in/sergiodiazl/">
 			Sergio Diaz Llobera
 		</a>
