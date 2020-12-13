@@ -30,10 +30,10 @@ export const Home = () => {
 				</div>
 			</div>
 			<div className="home-btns d-flex flex-row flex-md-column">
-				<Link to="/about" className="about-btn btn btn-outline-secondary my-2">
+				<Link to="/about" className="about-btn order-md-2 btn btn-outline-secondary mt-md-3">
 					About Me
 				</Link>
-				<Link to="/projects" className="btn btn-warning my-2">
+				<Link to="/projects" className="btn order-md-1 btn-warning mt-3 mt-md-0">
 					Projects
 				</Link>
 			</div>
