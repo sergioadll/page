@@ -7,15 +7,11 @@ import "../../styles/navbar.scss";
 
 export const Navbar = () => {
 	// const { store, actions } = useContext(Context);
-	const [name, setName] = useState("SDL");
-	const longName = () => setName("Sergio Diaz Llobera");
-	const shortName = () => setName("SDL");
+
 	return (
 		<nav className="navbar">
 			<Link to="/" className="navbar-title link">
-				<span className="navbar-title text-light h1" onMouseOver={longName} onMouseOut={shortName}>
-					{name}
-				</span>
+				<span className="navbar-title text-light h1">Sergio Diaz Llobera</span>
 			</Link>
 			<div className="ml-auto-md">
 				<Link to="/" className="link">
