@@ -1,41 +1,7 @@
-// html font sizes
-// html {
-//   font-size: 1rem;
-// }
-
-// Small to Medium Sized Media
-@media (max-width: 768px) {
-  .navbar-link {
-    font-size: 1.2rem;
-  }
+.navbar {
+  margin-top: 1rem;
+  padding-left: 3rem;
 }
-@media (max-width: 768px) and (orientation: portrait) {
-  .navbar-title {
-    font-size: 1.6rem;
-  }
-}
-@media (max-width: 768px) and (orientation: landscape) {
-  .navbar-title {
-    font-size: 1rem;
-  }
-}
-// Medium to Large Sized Media
-@media (max-width: 922px) {
-  .navbar-link {
-    //font-size: 1.2rem;
-  }
-}
-@media (max-width: 922px) and (orientation: portrait) {
-  .navbar-title {
-    //font-size: 1.6rem;
-  }
-}
-@media (max-width: 922px) and (orientation: landscape) {
-  .navbar-title {
-    //font-size: 1rem;
-  }
-}
-
 .navbar-title:hover,
 .navbar-link:active {
   text-decoration: none;
@@ -51,4 +17,34 @@
 }
 .link {
   outline: none;
+}
+// Small to Medium Sized Media
+@media (max-width: 576px) {
+  .navbar-link {
+    font-size: 1.3rem;
+  }
+  .navbar {
+    margin-top: 1rem !important;
+    padding-top: 0rem;
+  }
+}
+@media (max-width: 576px) and (orientation: portrait) {
+  .navbar {
+    padding-left: 2rem;
+  }
+  .navbar-title {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 576px) and (orientation: landscape) {
+  .navbar {
+    padding-left: 2rem;
+  }
+  .navbar-title {
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
+  }
+  .navbar-link {
+    font-size: 1rem;
+  }
 }

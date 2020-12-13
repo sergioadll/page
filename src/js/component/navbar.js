@@ -11,7 +11,7 @@ export const Navbar = () => {
 	const longName = () => setName("Sergio Diaz Llobera");
 	const shortName = () => setName("SDL");
 	return (
-		<nav className="navbar px-0">
+		<nav className="navbar">
 			<Link to="/" className="navbar-title link">
 				<span className="navbar-title text-light h1" onMouseOver={longName} onMouseOut={shortName}>
 					{name}

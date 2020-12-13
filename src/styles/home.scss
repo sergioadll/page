@@ -1,5 +1,12 @@
-html {
-  font-size: 1rem;
+.resp-container {
+  display: flex;
+  flex-direction: row;
+}
+.profile-img-container {
+  width: 10rem;
+  height: 10rem;
+  // align-self: flex-start;
+  margin-right: 2.5rem;
 }
 .profile-img {
   padding: 0rem;
@@ -8,12 +15,6 @@ html {
   display: block;
   object-fit: cover;
   border-radius: 100%;
-}
-.profile-img-container {
-  width: 10rem;
-  height: 10rem;
-  // align-self: flex-start;
-  margin-right: 2.5rem;
 }
 .typical-container {
   width: 30rem;
@@ -27,7 +28,7 @@ html {
 .btn {
   width: 10rem;
 }
-// Small to Medium Sized Media
+// Small Sized Screen
 @media (max-width: 576px) {
   .profile-img-container {
     width: 6rem;
@@ -36,7 +37,6 @@ html {
   }
   .typical {
     font-size: 0.8rem;
-    margin-left: 2.2rem;
   }
   .btn {
     font-size: 0.7rem;
@@ -44,6 +44,9 @@ html {
   }
 }
 @media (max-width: 576px) and (orientation: portrait) {
+  .resp-container {
+    display: contents;
+  }
   .typical {
     font-size: 0.7rem;
   }
@@ -51,7 +54,11 @@ html {
     width: 16rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
-    padding-left: 0.8em;
+    margin-left: 1rem;
+    margin-right: 0rem;
+  }
+  .home-btns {
+    flex-direction: column !important;
   }
   .btn {
     font-size: 0.7rem;
@@ -59,7 +66,32 @@ html {
   }
 }
 @media (max-width: 576px) and (orientation: landscape) {
+  .home {
+    flex-direction: row;
+  }
+  .resp-container {
+    margin-bottom: 1rem;
+  }
+  .profile-img-container {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .typical-container {
+    width: 18rem;
+    margin-right: 0rem;
+    // margin-left: 1rem;
+  }
   .typical {
     font-size: 0.8rem;
+    margin-left: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  .btn {
+    font-size: 0.7rem;
+    width: 11rem;
+    margin-bottom: 0rem !important;
+  }
+  .about-btn {
+    margin-right: 1.5rem;
   }
 }
